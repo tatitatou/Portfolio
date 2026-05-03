@@ -5,13 +5,13 @@ export function About() {
         <div>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">About me</h2>
           <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
-            I'm a curious computer science student with a passion for building things that
-            feel as good as they look. After two years of work-study, I've grown comfortable
-            shipping features end-to-end — from database schema to pixel-perfect UI.
+             Étudiante en informatique passionnée par la création d’expériences aussi agréables à utiliser qu’à regarder. 
+              Après deux années d’alternance, je suis à l’aise pour concevoir et livrer des fonctionnalités de bout en bout, 
+              de la modélisation de la base de données jusqu’à une interface soignée et précise.
           </p>
           <p className="mt-4 text-muted-foreground leading-relaxed">
-            I love clean code, thoughtful interfaces, and the small moments of magic that
-            make a product memorable. Always learning, always shipping.
+            J’accorde une grande importance au code propre, aux interfaces réfléchies et aux petits détails 
+  qui rendent un produit mémorable. Toujours en train d’apprendre, toujours en train de construire.
           </p>
         </div>
         <div className="relative">

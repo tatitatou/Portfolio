@@ -8,18 +8,19 @@ import { ProjectModal } from "@/components/portfolio/ProjectModal";
 import { Skills } from "@/components/portfolio/Skills";
 import { Experience } from "@/components/portfolio/Experience";
 import { Contact } from "@/components/portfolio/Contact";
+import { Education } from "@/components/portfolio/Education";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Camille — Full Stack Developer Portfolio" },
+      { title: "Tatiana - Développeuse Full Stack" },
       {
         name: "description",
         content:
-          "Portfolio of a computer science student & full stack developer. Vue, Symfony, PHP, SQL projects with a Netflix-style browsing experience.",
+          "Portfolio moderne avec navigation à la Netflix. Vue, Symfony, PHP.",
       },
-      { property: "og:title", content: "Camille — Full Stack Developer" },
-      { property: "og:description", content: "Modern portfolio with Netflix-style navigation. Vue, Symfony, PHP." },
+      { property: "og:title", content: "Tatiana - Développeuse Full Stack" },
+      { property: "og:description", content: "Portfolio moderne avec navigation à la Netflix. Vue, Symfony, PHP." },
     ],
   }),
   component: Index,
@@ -61,19 +62,18 @@ function Index() {
       <Navbar />
       <main>
         <Hero />
-        <div id="projects" className="space-y-10 py-10">
-          <ProjectRow title="Featured Projects" projects={featured} onOpen={setSelected} />
-          <ProjectRow title="Web Applications" projects={webApps} onOpen={setSelected} />
-          <ProjectRow title="Backend Projects" projects={backend} onOpen={setSelected} />
-          <ProjectRow title="Learning & Experiments" projects={learning} onOpen={setSelected} />
-        </div>
         <About />
+        <div id="projects" className="space-y-10 py-10">
+          <ProjectRow title="Projets universitaires" projects={featured} onOpen={setSelected} />
+          <ProjectRow title="Apprentissage & Expériences" projects={learning} onOpen={setSelected} />
+        </div>
         <Skills />
+        <Education />
         <Experience />
         <Contact />
       </main>
       <footer className="border-t border-border py-8 text-center text-sm text-muted-foreground">
-        © {new Date().getFullYear()} Camille · Built with care, Vue energy & a lot of ☕
+        © {new Date().getFullYear()} Tatiana · Créer avec React, Tailwind & beaucoup de thé.
       </footer>
       <ProjectModal project={selected} onClose={() => setSelected(null)} />
     </div>

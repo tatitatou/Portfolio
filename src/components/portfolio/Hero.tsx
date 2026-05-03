@@ -16,26 +16,26 @@ export function Hero() {
             Available for work-study & junior dev roles
           </div>
           <h1 className="mt-6 text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.05]">
-            Hi, I'm <span className="gradient-text">Camille</span>.
+            Salut, je suis <span className="gradient-text">Tatiana</span>.
             <br />
-            Full Stack Developer.
+            Développeuse Full Stack.
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-muted-foreground">
-            Computer science student at IUT, two years into a work-study program.
-            I craft thoughtful web experiences with Vue, Symfony and a curious mind.
+            Etudiante en informatique à l'IUT de Bayonne en alternance.
+            Je crée des expériences web réfléchies avec Vue, Symfony et une esprit curieux.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a
               href="#projects"
               className="inline-flex items-center gap-2 rounded-md bg-gradient-to-r from-primary to-accent-glow px-6 py-3 text-sm font-semibold text-primary-foreground shadow-glow transition-transform hover:-translate-y-0.5"
             >
-              View Projects <ArrowRight className="h-4 w-4" />
+              Voir les Projets <ArrowRight className="h-4 w-4" />
             </a>
             <a
               href="#contact"
               className="inline-flex items-center gap-2 rounded-md border border-border bg-surface/60 px-6 py-3 text-sm font-semibold text-foreground backdrop-blur transition-colors hover:bg-surface"
             >
-              <Mail className="h-4 w-4" /> Contact Me
+              <Mail className="h-4 w-4" /> Contact
             </a>
           </div>
 

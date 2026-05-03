@@ -7,9 +7,10 @@ export function Contact() {
     <section id="contact" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
       <div className="grid gap-10 lg:grid-cols-2 items-start">
         <div>
-          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Let's talk</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Contactez-moi</h2>
           <p className="mt-3 text-muted-foreground max-w-md">
-            Looking for a motivated full stack developer for your team or next project? I'd love to hear from you.
+             Vous recherchez un développeur full stack motivé pour rejoindre votre équipe ou concrétiser un projet ? 
+            N’hésitez pas à me contacter, je serai ravi d’échanger avec vous.
           </p>
           <div className="mt-6 flex flex-col gap-3">
             <a href="mailto:hello@example.com" className="inline-flex items-center gap-3 rounded-xl border border-border bg-surface px-4 py-3 transition-colors hover:bg-surface-elevated">

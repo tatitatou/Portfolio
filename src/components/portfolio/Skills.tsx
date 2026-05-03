@@ -4,17 +4,17 @@ const groups = [
   {
     icon: Code,
     title: "Frontend",
-    items: ["HTML", "CSS", "JavaScript", "Vue.js", "TailwindCSS"],
+    items: ["HTML", "CSS", "JavaScript", "Vue.js", "TailwindCSS", "React"],
   },
   {
     icon: Server,
     title: "Backend",
-    items: ["PHP", "Symfony", "Node.js", "REST APIs"],
+    items: ["PHP", "Symfony", "Node.js", "REST APIs", "Next.js"],
   },
   {
     icon: Database,
     title: "Data",
-    items: ["SQL", "MySQL", "PostgreSQL", "Doctrine"],
+    items: ["SQL", "MySQL", "PostgreSQL", "Doctrine", "MongoDB", "Prisma"],
   },
   {
     icon: Wrench,

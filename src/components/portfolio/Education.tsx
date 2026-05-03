@@ -2,35 +2,32 @@ import { Briefcase, GraduationCap } from "lucide-react";
 
 const entries = [
   {
-    icon: Briefcase,
-    role: "Alternante ingénieure",
-    org: "BAMI",
+    icon: GraduationCap,
+    role: "Diplôme d'ingénieur en Réseaux et Informatique",
+    org: "ENSEIRB-MATMECA Bordeaux",
     period: "2026 — 2029",
     bullets: [
-      "Built and maintained internal tools with Symfony & Vue.js",
-      "Designed REST APIs and database schemas in MySQL",
-      "Collaborated in an agile team using Git, code reviews and CI",
+      "Algorithms, databases, software architecture, web development",
+      "Project-based curriculum with team deliveries each semester",
     ],
   },
   {
-    icon: Briefcase,
-    role: "Alternante ingénieure",
-    org: "Lynxter",
-    period: "2024 — 2026",
+    icon: GraduationCap,
+    role: "BUT Informatique",
+    org: "IUT de Bayonne et du pays Basque",
+    period: "2023 — 2026",
     bullets: [
-      "Built and maintained internal tools with Symfony & Vue.js",
-      "Designed REST APIs and database schemas in MySQL",
-      "Collaborated in an agile team using Git, code reviews and CI",
+      "Algorithms, databases, software architecture, web development",
+      "Project-based curriculum with team deliveries each semester",
     ],
   },
 ];
 
-export function Experience() {
+export function Education() {
   return (
-    <section id="experience" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
-      <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Experience</h2>
-      <p className="mt-2 text-muted-foreground">Two years of work-study and counting.</p>
-
+    <section id="education" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
+      <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Education</h2>
+      <p className="mt-2 text-muted-foreground">My academic journey and qualifications.</p>
       <ol className="relative mt-10 space-y-6 border-l border-border pl-6">
         {entries.map((e) => (
           <li key={e.role} className="relative">
