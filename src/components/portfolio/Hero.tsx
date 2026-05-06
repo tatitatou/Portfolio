@@ -11,10 +11,6 @@ export function Hero() {
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl animate-fade-in-up">
-          <div className="inline-flex items-center gap-2 rounded-full border border-border bg-surface/60 px-3 py-1 text-xs text-muted-foreground backdrop-blur">
-            <Sparkles className="h-3.5 w-3.5 text-accent-glow" />
-            Available for work-study & junior dev roles
-          </div>
           <h1 className="mt-6 text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.05]">
             Salut, je suis <span className="gradient-text">Tatiana</span>.
             <br />
@@ -41,8 +37,8 @@ export function Hero() {
 
           <dl className="mt-12 grid grid-cols-3 gap-6 max-w-md">
             {[
-              { k: "2y", v: "Work-study" },
-              { k: "12+", v: "Projects" },
+              { k: "2 ans", v: "Experience" },
+              { k: "4+", v: "Projets" },
               { k: "7+", v: "Technologies" },
             ].map((s) => (
               <div key={s.v}>

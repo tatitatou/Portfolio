@@ -34,7 +34,7 @@ export function ProjectModal({ project, onClose }: { project: Project | null; on
           <X className="h-4 w-4" />
         </button>
         <div className="aspect-video w-full" style={{ background: project.gradient }}>
-          <div className="flex h-full items-center justify-center text-8xl">{project.emoji}</div>
+          <div className="flex h-full items-center justify-center text-8xl"><img src={project.image} alt={project.title} className="h-full w-full object-cover" /></div>
         </div>
         <div className="p-6">
           <h3 className="text-2xl font-bold tracking-tight">{project.title}</h3>

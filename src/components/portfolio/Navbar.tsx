@@ -3,11 +3,10 @@ import { Moon, Sun, Code2 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const links = [
-  { href: "#about", label: "About" },
-  { href: "#projects", label: "Projects" },
-  { href: "#skills", label: "Skills" },
-  { href: "#experience", label: "Experience" },
-  { href: "#contact", label: "Contact" },
+  { href: "#about", label: "À propos" },
+  { href: "#projects", label: "Projets" },
+  { href: "#skills", label: "Compétences" },
+  { href: "#experience", label: "Experience" }
 ];
 
 export function Navbar() {
@@ -65,7 +64,7 @@ export function Navbar() {
             href="#contact"
             className="hidden sm:inline-flex h-9 items-center rounded-md bg-foreground px-4 text-sm font-medium text-background transition-opacity hover:opacity-90"
           >
-            Hire me
+            Contactez-moi
           </a>
         </div>
       </nav>

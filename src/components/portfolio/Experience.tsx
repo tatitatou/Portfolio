@@ -7,9 +7,10 @@ const entries = [
     org: "BAMI",
     period: "2026 — 2029",
     bullets: [
-      "Built and maintained internal tools with Symfony & Vue.js",
-      "Designed REST APIs and database schemas in MySQL",
-      "Collaborated in an agile team using Git, code reviews and CI",
+      "Rédaction de spécifications techniques et documentation système",
+      "Amélioration de la sécurité des intégrations Core Banking",
+      "Fiabilisation des applications bancaires interconnectées",
+      "Intégration dans des pipelines CI/CD et développement en environnement COBOL",
     ],
   },
   {
@@ -18,9 +19,10 @@ const entries = [
     org: "Lynxter",
     period: "2024 — 2026",
     bullets: [
-      "Built and maintained internal tools with Symfony & Vue.js",
-      "Designed REST APIs and database schemas in MySQL",
-      "Collaborated in an agile team using Git, code reviews and CI",
+      "Développement d’outils internes et logiciels de gestion d’imprimantes 3D",
+      "Utilisation de Symfony, Vue.js et Nest.js pour des applications métier",
+      "Déploiement et maintenance sur serveurs Apache",
+      "Rédaction de documentation technique et participation à la coordination projet",
     ],
   },
 ];

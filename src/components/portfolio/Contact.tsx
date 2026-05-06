@@ -15,13 +15,13 @@ export function Contact() {
           <div className="mt-6 flex flex-col gap-3">
             <a href="mailto:hello@example.com" className="inline-flex items-center gap-3 rounded-xl border border-border bg-surface px-4 py-3 transition-colors hover:bg-surface-elevated">
               <Mail className="h-5 w-5 text-accent-glow" />
-              <span className="text-sm">hello@example.com</span>
+              <span className="text-sm">tatiana.novion7@gmail.com</span>
             </a>
             <div className="flex gap-3">
-              <a href="https://github.com" className="inline-flex flex-1 items-center gap-2 rounded-xl border border-border bg-surface px-4 py-3 transition-colors hover:bg-surface-elevated">
+              <a href="https://github.com/tatitatou" className="inline-flex flex-1 items-center gap-2 rounded-xl border border-border bg-surface px-4 py-3 transition-colors hover:bg-surface-elevated">
                 <Github className="h-5 w-5" /> <span className="text-sm">GitHub</span>
               </a>
-              <a href="https://linkedin.com" className="inline-flex flex-1 items-center gap-2 rounded-xl border border-border bg-surface px-4 py-3 transition-colors hover:bg-surface-elevated">
+              <a href="https://www.linkedin.com/in/tatiana-novion-736a0b2b3/" className="inline-flex flex-1 items-center gap-2 rounded-xl border border-border bg-surface px-4 py-3 transition-colors hover:bg-surface-elevated">
                 <Linkedin className="h-5 w-5" /> <span className="text-sm">LinkedIn</span>
               </a>
             </div>

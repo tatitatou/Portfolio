@@ -8,7 +8,7 @@ export type Project = {
   description: string;
   tech: string[];
   gradient: string;
-  emoji: string;
+  image: string;
   github?: string;
   demo?: string;
 };
@@ -81,10 +81,12 @@ function ProjectCard({ project, onOpen }: { project: Project; onOpen: () => void
       )}
     >
       <div
-        className="aspect-video w-full"
-        style={{ background: project.gradient }}
+        className="aspect-video w-full bg-cover bg-center"
+        style={{ backgroundImage: `url(${project.image})` }}
       >
-        <div className="flex h-full items-center justify-center text-6xl">{project.emoji}</div>
+        <div className="h-full w-full bg-black/30 group-hover:bg-black/40 transition-colors duration-300 flex items-end p-3">
+          <span className="text-white font-semibold text-sm drop-shadow">{project.title}</span>
+        </div>
       </div>
       <div className="p-4">
         <h4 className="font-semibold tracking-tight">{project.title}</h4>

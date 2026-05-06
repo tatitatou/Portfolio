@@ -7,8 +7,10 @@ const entries = [
     org: "ENSEIRB-MATMECA Bordeaux",
     period: "2026 — 2029",
     bullets: [
-      "Algorithms, databases, software architecture, web development",
-      "Project-based curriculum with team deliveries each semester",
+      "Conception et administration des réseaux (LAN, WAN, cybersécurité)",
+      "Architecture des systèmes distribués et cloud computing",
+      "Développement logiciel avancé et ingénierie système",
+      "Gestion de projets techniques et travail en équipe",
     ],
   },
   {
@@ -17,8 +19,10 @@ const entries = [
     org: "IUT de Bayonne et du pays Basque",
     period: "2023 — 2026",
     bullets: [
-      "Algorithms, databases, software architecture, web development",
-      "Project-based curriculum with team deliveries each semester",
+      "Programmation (Java, JavaScript, C++) et développement web",
+      "Bases de données relationnelles et SQL",
+      "Conception d’applications et architecture logicielle",
+      "Projets tutorés en équipe et mise en pratique professionnelle",
     ],
   },
 ];
