@@ -26,8 +26,8 @@ const groups = [
 export function Skills() {
   return (
     <section id="skills" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
-      <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Skills</h2>
-      <p className="mt-2 text-muted-foreground">My toolkit, organized by category.</p>
+      <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">CCompétences</h2>
+      <p className="mt-2 text-muted-foreground">Mes outils de développement, organisés par catégorie.</p>
       <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {groups.map((g) => (
           <div

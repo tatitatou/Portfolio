@@ -30,8 +30,8 @@ const entries = [
 export function Education() {
   return (
     <section id="education" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
-      <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Education</h2>
-      <p className="mt-2 text-muted-foreground">My academic journey and qualifications.</p>
+      <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Formation</h2>
+      <p className="mt-2 text-muted-foreground">Mon parcours académique et mes qualifications.</p>
       <ol className="relative mt-10 space-y-6 border-l border-border pl-6">
         {entries.map((e) => (
           <li key={e.role} className="relative">

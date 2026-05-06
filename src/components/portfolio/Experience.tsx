@@ -30,8 +30,8 @@ const entries = [
 export function Experience() {
   return (
     <section id="experience" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
-      <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Experience</h2>
-      <p className="mt-2 text-muted-foreground">Two years of work-study and counting.</p>
+      <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Expérience</h2>
+      <p className="mt-2 text-muted-foreground">Deux années d'alternance et plus, en cours.</p>
 
       <ol className="relative mt-10 space-y-6 border-l border-border pl-6">
         {entries.map((e) => (

@@ -3,7 +3,7 @@ export function About() {
     <section id="about" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
       <div className="grid gap-10 lg:grid-cols-[1.2fr_1fr] items-center">
         <div>
-          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">About me</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">À propos de moi</h2>
           <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
             Étudiante en informatique passionnée par la création d’expériences aussi agréables à
             utiliser qu’à regarder. Après deux années d’alternance, je suis à l’aise pour concevoir
